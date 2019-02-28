@@ -6,7 +6,7 @@
 .header{
 	width: 100%;
 	height:100px;
-	background-color: #000000;
+	background-color: #7F2528;
 }
 
 .nav-item{
@@ -15,12 +15,12 @@
 
 .body{
 	width: 100%;
-	height:800px;
-	background-color: #000000;
+	height:600px;
+	background-color: #FFFBEF;
 }
 
 .footer{
 	width: 100%;
 	height:40px;
-	background-color: #000000;
+	background-color: #7F2528;
 }

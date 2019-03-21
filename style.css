@@ -118,7 +118,8 @@ background-color: #4CAF50;  border: none;
   border: 25px solid #BDD7FF;
   padding: 25px;
   margin-left: 600px;
-  margin-top: 80px;
+  margin-top: 10px;
+  font-family: 'Goudy Bookletter 1911', serif;
 }
 
 .border{

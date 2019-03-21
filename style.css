@@ -22,13 +22,34 @@ body{
     
 }
 
+.background2{
+	background: url("img/abg.jpg") fixed 0 0 no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.background3{
+    background: url("img/bg2.jpg") fixed 0 0 no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    
+}
+
 .introduction{
 	background-color: lightgrey;
   width: 500px;
   border: 25px solid #BDD7FF;
   padding: 25px;
-  margin-top: 30px;
-  margin-left: 70px;
+  margin-top: 60px;
+  margin-left: 20px;
+  font-family: 'Goudy Bookletter 1911', serif;
 }
 
 .mainbutton{
@@ -43,8 +64,9 @@ background-color: #4CAF50;  border: none;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  margin-left: 220px;
+  margin-left: 165px;
   margin-top: 30px;
+
 }
 
 .button1 {
@@ -58,34 +80,36 @@ background-color: #4CAF50;  border: none;
   color: black;
 }
 
-.quin1{
+.quin1 {
 	position: absolute;
 	top: 8px;
- 	right: 550px;
+ 	right: 498px;
+ 	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
 }
 
 .doggo1{
 	position: absolute;
 	top: 8px;
- 	right: 270px;
+ 	right: 215px;
 }
 
 .doggo2{
 	position: absolute;
 	top: 256px;
- 	right: 550px;
+ 	right: 498px;
 }
 
 .doggo3{
 	position: absolute;
 	top: 8px;
- 	right: 75px;
+ 	right: 20px;
 }
 
 .doggo4{
 	position: absolute;
 	top: 358px;
- 	right: 318px;
+ 	right: 265px;
 }
 
 .contactus{
@@ -93,7 +117,17 @@ background-color: #4CAF50;  border: none;
   width: 600px;
   border: 25px solid #BDD7FF;
   padding: 25px;
-  margin-left: 800px;
+  margin-left: 600px;
+  margin-top: 80px;
+}
+
+.border{
+	margin-left: 300px;
+}
+
+.title1 {
+	text-align: center;
+	font-family: 'Parisienne', cursive;
 }
 
 .nav-item{
@@ -107,8 +141,6 @@ background-color: #4CAF50;  border: none;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin-left: 50px;
-	margin-top: 30px;
 	margin-bottom: 50px;
 }
 .container2 .box{

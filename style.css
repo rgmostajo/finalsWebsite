@@ -124,6 +124,7 @@ background-color: #4CAF50;  border: none;
 
 .border{
 	margin-left: 300px;
+	position: absolute;
 }
 
 .title1 {

@@ -122,9 +122,19 @@ background-color: #4CAF50;  border: none;
   font-family: 'Goudy Bookletter 1911', serif;
 }
 
-.border{
+.container{
 	margin-left: 300px;
 	position: absolute;
+	text-align: center;
+ 	color: white;
+ 	left: 100px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .title1 {
